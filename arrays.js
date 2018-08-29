@@ -19,3 +19,7 @@ destrctivelyAddElementToEndOfArray(array, element){
   array.push(element)
   return array
 }
+
+accessElementInArray(array, element){
+  return array[element]
+}
