@@ -28,3 +28,8 @@ destrctivelyRemoveElementFromBeginningOfArray(array){
   array.shift()
   return array
 }
+
+removeElementFromBeginningOfArray(array){
+ newArray = array.slice(1)
+  return newArray
+}
