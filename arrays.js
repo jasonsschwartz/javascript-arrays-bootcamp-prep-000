@@ -23,3 +23,8 @@ destrctivelyAddElementToEndOfArray(array, element){
 accessElementInArray(array, element){
   return array[element]
 }
+
+destrctivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
+}
