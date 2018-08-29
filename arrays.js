@@ -38,3 +38,8 @@ destrctivelyRemoveElementFromEndOfArray(array){
   array.pop()
   return array
 }
+
+removeElementFromEndOfArray(array){
+ newArray = array.slice(0, array.length - 1)
+  return newArray
+}
